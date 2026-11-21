@@ -1,0 +1,12 @@
+# 核心依赖
+numpy>=1.26
+opencv-python-headless>=4.9
+requests>=2.31
+imageio-ffmpeg>=0.5          # 自带 ffmpeg 二进制，免装系统 ffmpeg
+
+# OCR（主力）：PP-OCRv5 日文模型，纯识别最准
+paddlepaddle>=3.0
+paddleocr>=3.0
+
+# 可选：想换成 manga-ocr 做漫画/竖排时手工装
+#   pip install manga-ocr
